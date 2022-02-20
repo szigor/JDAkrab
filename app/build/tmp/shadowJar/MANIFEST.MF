@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: /libs/app-1.0.jar
+Main-Class: me.igor.Bot
+
