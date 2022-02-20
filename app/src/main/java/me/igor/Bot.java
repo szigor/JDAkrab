@@ -14,7 +14,7 @@ public class Bot {
     private Bot() throws LoginException {
 
         JDABuilder.createDefault(
-                        System.getenv().get("TOKEN"),
+                        Config.get("token"),
                         GatewayIntent.GUILD_MESSAGES,
                         GatewayIntent.GUILD_VOICE_STATES
                 )
